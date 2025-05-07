@@ -1,0 +1,21 @@
+footer {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* test */
+  background-color: cadetblue;
+}
+
+ul.links {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+ul.links a {
+  color: #1976d2;
+}

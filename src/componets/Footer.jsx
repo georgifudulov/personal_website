@@ -1,0 +1,64 @@
+import "../styles/Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+export default function Footer() {
+  return (
+    <footer className="wrapper">
+      <ul className="wrapper links" role="list">
+        <li>
+          <a
+            href="mailto:fudulov.georgi@gmail.com"
+            aria-label="Send email to fudulov.georgi@gmail.com"
+          >
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/georgi-fudulov-b03316298/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/g-fudulov"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/georgi.fudulov/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/georgifudulov/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </li>
+      </ul>
+      <p>Copyright &copy; All Rights Reserved.</p>
+    </footer>
+  );
+}
