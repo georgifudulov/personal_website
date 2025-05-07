@@ -4,8 +4,9 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  /* test */
-  background-color: cadetblue;
+  background-color: #d8d8d8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 ul.links {
@@ -17,5 +18,13 @@ ul.links {
 }
 
 ul.links a {
+  color: #212121;
+  font-size: inherit;
+  text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.22);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+ul.links a:hover {
+  text-shadow: 0 0 80px rgb(25, 118, 210);
   color: #1976d2;
 }
