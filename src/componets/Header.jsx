@@ -3,7 +3,7 @@ import '../styles/Header.css'
 export default function Header() {
   return (
     <header className="wrapper header">
-      <h1 className='logo'><a href='#header'>Georgi Fudulov</a></h1>
+      <h1 className='logo'><a href='#hero'>Georgi Fudulov</a></h1>
       <nav className='wrapper'>
         <ul className="wrapper list" role='list'>
           <li>

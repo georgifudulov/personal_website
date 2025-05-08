@@ -1,11 +1,17 @@
 header {
+  position: sticky;
+  top: 0px;
+  z-index: 3;
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100vw;
   height: 10vh;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px dashed #1976d2;
 }
 
