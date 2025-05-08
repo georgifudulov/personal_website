@@ -1,9 +1,10 @@
 section.about {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   background-color: #f0f0f0;
+  padding-top: 2rem;
 }
 
 div.about-content {
@@ -29,6 +30,9 @@ div.tech {
 }
 
 div.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 5rem;
 }
 
