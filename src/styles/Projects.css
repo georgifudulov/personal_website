@@ -1,0 +1,36 @@
+#projects {
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.projects-content {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+  height: 80%;
+  gap: 3rem;
+}
+
+#projects button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects button:hover {
+  background-color: #145ea8;
+  cursor: pointer;
+  box-shadow: 0 0 25px 5px rgba(25, 118, 210, 0.6);
+}

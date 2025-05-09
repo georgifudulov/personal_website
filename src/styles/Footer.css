@@ -7,6 +7,7 @@ footer {
   background-color: #bebebe;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border-top: 1px dashed #1976d2;
 }
 
 ul.links {

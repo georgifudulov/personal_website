@@ -19,6 +19,10 @@ div.about-content {
   gap: 1rem;
 }
 
+.description {
+  margin-bottom: -8rem;
+}
+
 div.tech {
   width: 80%;
   max-width: 1000px;

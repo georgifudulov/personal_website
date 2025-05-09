@@ -5,6 +5,7 @@ import Footer from "./componets/Footer";
 import Hero from "./componets/Hero";
 import About from "./componets/About";
 import WhatIDo from "./componets/WhatIDo";
+import Projects from "./componets/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <WhatIDo />
+      <Projects />
       <Footer />
     </>
   );

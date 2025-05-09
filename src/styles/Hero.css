@@ -41,11 +41,12 @@
   color: white;
   border: none;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-text button:hover {
   background-color: #145ea8;
+  box-shadow: 0 0 25px 5px rgba(25, 118, 210, 0.6);
   cursor: pointer;
 }
 
@@ -76,5 +77,4 @@
   position: relative;
   z-index: 1;
   display: block;
-  max-width: 100%;
 }

@@ -1,10 +1,10 @@
 #what-i-do {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   background-color: #ececec;
-  padding: 1rem 0.5rem; /* may move the padding*/
+  padding: 1rem 0.5rem;
 }
 
 div.whatido-content {
@@ -12,8 +12,8 @@ div.whatido-content {
   max-width: 1200px;
   height: 80%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 1.5rem;
   padding: 1rem;
 }
@@ -52,6 +52,6 @@ div.square {
 }
 
 p.text {
-    font-size: 0.88rem;
-    color: #6d6d6d;
+  font-size: 0.88rem;
+  color: #6d6d6d;
 }
