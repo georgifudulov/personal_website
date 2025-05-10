@@ -6,7 +6,6 @@ import Hero from "./componets/Hero";
 import About from "./componets/About";
 import WhatIDo from "./componets/WhatIDo";
 import Projects from "./componets/Projects";
-import ContactForm from "./componets/ContactForm";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <About />
       <WhatIDo />
       <Projects />
-      <ContactForm />
       <Footer />
     </>
   );
