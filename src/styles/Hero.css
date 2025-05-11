@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   background-color: #ececec;
+  scroll-margin-top: 50vh;
 }
 
 .hero-content {
@@ -12,7 +13,7 @@
   height: 80%;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -56,6 +57,7 @@
   justify-content: center;
   position: relative;
   display: inline-block;
+  width: 460px;
 }
 .hero-image::before {
   content: "";
@@ -63,8 +65,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120%;
-  height: 120%;
+  width: 100%;
+  height: 100%;
   background: radial-gradient(circle, rgba(25, 118, 210, 0.7), transparent 70%);
   filter: blur(40px);
   z-index: 0;
@@ -77,4 +79,48 @@
   position: relative;
   z-index: 1;
   display: block;
+}
+
+@media (max-width: 1240px) {
+  #hero {
+    overflow: hidden;
+  }
+
+  .hero-image {
+    flex: unset;
+  }
+
+  .hero-content {
+    height: 100%;
+  }
+
+  .hero-text {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-text {
+    gap: 0.5rem;
+    padding: 0 1rem 0 1rem;
+  }
+
+  .hero-image {
+    margin-top: -3rem;
+  }
+
+  .hero-text a {
+    margin-top: 1.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
 }

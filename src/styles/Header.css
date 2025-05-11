@@ -47,6 +47,7 @@ ul.list {
 ul.list a {
   color: #212121;
   font-size: inherit;
+  font-weight: 700;
   text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.22);
   border-bottom: 1px solid transparent;
   transition: color 0.25s ease, border-bottom 0.25s ease, text-shadow 0.25s ease;
