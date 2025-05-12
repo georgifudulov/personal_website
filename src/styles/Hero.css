@@ -4,13 +4,11 @@
   align-items: center;
   justify-content: center;
   background-color: #ececec;
-  scroll-margin-top: 50vh;
 }
 
 .hero-content {
   width: 90%;
   max-width: 1200px;
-  height: 80%;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -84,6 +82,7 @@
 @media (max-width: 1240px) {
   #hero {
     overflow: hidden;
+    scroll-margin: 12vh;
   }
 
   .hero-image {
