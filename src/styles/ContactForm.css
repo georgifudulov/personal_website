@@ -147,4 +147,10 @@ button.form-btn:hover {
   button.form-btn {
     width: 100%;
   }
+
+  .status {
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+  }
 }
