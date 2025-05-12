@@ -98,7 +98,6 @@ p.text {
 
 .title {
   display: flex;
-  flex: 1;
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;

@@ -20,6 +20,7 @@ export default function Projects() {
   return (
     <section id="projects" className="wrapper">
       <div className="wrapper projects-content">
+        <h3 className="projects-heading">My Projects</h3>
         {projectData.map((item, index) => (
           <FadeInWrapper>
             <ProjectItem
