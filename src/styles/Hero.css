@@ -110,8 +110,8 @@
   }
 
   .hero-text a {
-    margin-top: 1.8rem; 
-    margin-bottom: 1.5rem;
+    margin-top: 1.8rem;
+    z-index: 10;
   }
 }
 
