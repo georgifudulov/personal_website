@@ -7,6 +7,10 @@
   padding: 1rem 0.5rem;
 }
 
+div.whatido-content.mobile {
+  display: none;
+}
+
 div.whatido-content {
   width: 80%;
   max-width: 1200px;
@@ -54,4 +58,72 @@ div.square {
 p.text {
   font-size: 0.88rem;
   color: #6d6d6d;
+}
+
+/* Mobile */
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px dashed #ccc;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.dropdown h3 {
+  font-size: 1.3rem;
+}
+
+.dropdown .text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  opacity: 0;
+}
+
+.dropdown.open {
+  border-bottom-color: #1976d2;
+}
+
+.dropdown.open h3 {
+  color: #1976d2;
+}
+
+.dropdown.open .text {
+  max-height: 700px;
+  opacity: 1;
+}
+
+.title {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.chevron {
+  transition: transform 0.3s ease-in-out;
+}
+
+.chevron.rotate {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1000px) {
+
+  div.whatido-content.mobile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.whatido-content.desktop {
+    display: none;
+  }
 }
