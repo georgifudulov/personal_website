@@ -25,10 +25,10 @@ export default function ContactForm() {
 
     emailjs
       .send(
-        process.env.VITE_EMAILJS_SERVICE_ID,
-        process.env.VITE_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        process.env.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setStatus({
