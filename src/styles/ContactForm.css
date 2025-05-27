@@ -124,7 +124,8 @@ button.form-btn:hover {
 
 @media (max-width: 700px) {
   #contacts {
-    padding: 1rem 1.4rem;
+    padding: 3rem 1.4rem;
+    height: 100%;
   }
 
   form.contact-form {

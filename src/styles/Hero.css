@@ -83,7 +83,7 @@
   #hero {
     overflow: hidden;
     scroll-margin: 12vh;
-    /* height: fit-content; */
+    height: 100%;
   }
 
   .hero-image {

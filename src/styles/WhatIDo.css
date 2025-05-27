@@ -9,6 +9,7 @@
 
 div.whatido-content.mobile {
   display: none;
+  width: 100%;
 }
 
 div.whatido-content {
@@ -66,6 +67,7 @@ p.text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: left;
   border-bottom: 1px dashed #ccc;
   padding: 1rem;
   cursor: pointer;
@@ -113,6 +115,10 @@ p.text {
 }
 
 @media (max-width: 1000px) {
+  #what-i-do {
+    height: 100%;
+    padding: 5rem 0.5rem;
+  }
 
   div.whatido-content.mobile {
     display: flex;
