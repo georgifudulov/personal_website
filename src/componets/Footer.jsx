@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faFacebook,
   faInstagram,
+  faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,7 +24,7 @@ export default function Footer() {
 
         <li>
           <a
-            href="https://www.linkedin.com/in/georgi-fudulov-b03316298/"
+            href="https://www.linkedin.com/in/georgifudulov/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,6 +38,15 @@ export default function Footer() {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://x.com/georgifudulov/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faXTwitter} />
           </a>
         </li>
         <li>

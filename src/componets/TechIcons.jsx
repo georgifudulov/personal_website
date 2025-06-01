@@ -41,16 +41,24 @@ export default function TechIcons() {
         cssImage,
         postgresqlImage,
         dockerImage,
-      ].map((src, i) => (
-        <motion.div
-          className="wrapper img-container"
-          key={i}
-          variants={itemVariants}
-          transition={{ duration: 0.4, ease: "easeOut" }}
-        >
-          <img src={src} alt="Tech logo" draggable="false" />
-        </motion.div>
-      ))}
+      ].map((src, i) => {
+        const name = src
+          .split("/")
+          .pop()
+          .split(".")[0]
+          .replace(/^\w/, (c) => c.toUpperCase());
+
+        return (
+          <motion.div
+            className="wrapper img-container"
+            key={i}
+            variants={itemVariants}
+            transition={{ duration: 0.4, ease: "easeOut" }}
+          >
+            <img src={src} alt={name} title={name} draggable="false" />
+          </motion.div>
+        );
+      })}
     </motion.div>
   );
 }

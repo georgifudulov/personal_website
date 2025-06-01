@@ -15,7 +15,6 @@ export default function Header() {
             Georgi Fudulov
           </a>
         </h1>
-
         <button
           className="menu-toggle"
           onClick={() => setIsOpen((prev) => !prev)}
@@ -23,7 +22,6 @@ export default function Header() {
         >
           <FontAwesomeIcon icon={isOpen ? faXmark : faBars} />
         </button>
-
         <nav className={`wrapper nav ${isOpen ? "open" : ""}`}>
           <ul className="wrapper list" role="list">
             <li>
@@ -50,6 +48,7 @@ export default function Header() {
         </nav>
       </header>
       {isOpen && <div className="backdrop" onClick={handleClose}></div>}
+      {isOpen && <div className="blur-bg"></div>}
     </>
   );
 }
