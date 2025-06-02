@@ -45,7 +45,7 @@ export default function TechIcons() {
         const name = src
           .split("/")
           .pop()
-          .split(".")[0]
+          .split("-")[0]
           .replace(/^\w/, (c) => c.toUpperCase());
 
         return (
