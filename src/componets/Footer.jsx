@@ -33,7 +33,7 @@ export default function Footer() {
         </li>
         <li>
           <a
-            href="https://github.com/g-fudulov"
+            href="https://github.com/georgifudulov"
             target="_blank"
             rel="noopener noreferrer"
           >

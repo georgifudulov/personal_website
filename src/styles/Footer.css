@@ -5,8 +5,8 @@ footer {
   justify-content: center;
   gap: 1rem;
   background-color: #bebebe;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
   border-top: 1px dashed #1976d2;
 }
 
@@ -15,12 +15,12 @@ ul.links {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.3rem;
 }
 
 ul.links a {
   color: #212121;
-  font-size: inherit;
+  font-size: 1.3rem;
   text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.22);
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -28,4 +28,9 @@ ul.links a {
 ul.links a:hover {
   text-shadow: 0 0 80px rgb(25, 118, 210);
   color: #1976d2;
+}
+
+footer p {
+  color: inherit;
+  font-size: 1.1rem;
 }
