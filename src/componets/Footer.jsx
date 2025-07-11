@@ -15,8 +15,8 @@ export default function Footer() {
       <ul className="wrapper links" role="list">
         <li>
           <a
-            href="mailto:fudulov.georgi@gmail.com"
-            aria-label="Send email to fudulov.georgi@gmail.com"
+            href="mailto:contact@georgifudulov.com"
+            aria-label="Send email to contact@georgifudulov.com"
           >
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
