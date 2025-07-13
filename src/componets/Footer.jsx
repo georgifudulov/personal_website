@@ -17,6 +17,7 @@ export default function Footer() {
           <a
             href="mailto:contact@georgifudulov.com"
             aria-label="Send email to contact@georgifudulov.com"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faEnvelope} />
           </a>

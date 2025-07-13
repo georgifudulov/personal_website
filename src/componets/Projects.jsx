@@ -4,8 +4,18 @@ import ProjectItem from "./ProjectItem";
 import FadeInWrapper from "./FadeInWrapper";
 
 import portfolioTracker from "../assets/portfolio_tracker.png";
+import wizardwash from "../assets/wizardwash.png";
 
 const projectData = [
+  {
+    title: "WizardWash",
+    description:
+      "Developed a professional web platform for a nationally operating cleaning company with 5 years of experience, using ReactJS and Vanilla CSS. Showcasing services, real client results, and SEO-optimized content.",
+    img: wizardwash,
+    url: "https://wizardwash.bg",
+    alt: "WizardWash image",
+  },
+  ,
   {
     title: "Portfolio Tracker",
     description:
@@ -33,7 +43,7 @@ export default function Projects() {
             />
           </FadeInWrapper>
         ))}
-        <a href="https://github.com/g-fudulov" target="_blank">
+        <a href="https://github.com/g-fudulov" target="_blank" rel="noopener noreferrer">
           <button>View All My Projects</button>
         </a>
       </div>

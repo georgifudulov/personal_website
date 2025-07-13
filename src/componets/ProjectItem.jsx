@@ -2,7 +2,12 @@ import "../styles/ProjectItem.css";
 
 export default function ProjectItem({ title, description, img, url, alt }) {
   return (
-    <a href={url} target="_blank" className="wrapper project">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="wrapper project"
+    >
       <div className="project-img-container">
         <img className="photo" src={img} alt={alt} />
       </div>
