@@ -14,7 +14,7 @@ export default function About() {
           </FadeInWrapper>
           <FadeInWrapper className="description" delay={0.3}>
             <p>
-              Aspiring Junior Web Developer with 4 years of hands-on experience
+              Aspiring Web Developer with 4 years of hands-on experience
               in building responsive and user-focused web applications. I
               specialize in Python and the Django framework, complemented by
               strong front-end skills in HTML, CSS, JavaScript, and ReactJS. My

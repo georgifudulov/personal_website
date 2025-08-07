@@ -10,7 +10,7 @@ export default function Hero() {
         <FadeInWrapper className='wrapper hero-text'>
             <h2>Welcome to My Website</h2>
             <p>Your gateway to modern web design and development.</p>
-            <a href="#about">
+            <a href="#about" rel="noopener noreferrer">
               <button>Get Started</button>
             </a>
         </FadeInWrapper>

@@ -43,7 +43,7 @@ export default function Projects() {
             />
           </FadeInWrapper>
         ))}
-        <a href="https://github.com/g-fudulov" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/georgifudulov" target="_blank" rel="noopener noreferrer">
           <button>View All My Projects</button>
         </a>
       </div>

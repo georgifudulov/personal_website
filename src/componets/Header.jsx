@@ -11,7 +11,7 @@ export default function Header() {
     <>
       <header className="wrapper header">
         <h1 className="logo">
-          <a href="#hero" onClick={handleClose}>
+          <a href="#hero" onClick={handleClose} rel="noopener noreferrer">
             Georgi Fudulov
           </a>
         </h1>
@@ -25,22 +25,22 @@ export default function Header() {
         <nav className={`wrapper nav ${isOpen ? "open" : ""}`}>
           <ul className="wrapper list" role="list">
             <li>
-              <a href="#about" onClick={handleClose}>
+              <a href="#about" onClick={handleClose} rel="noopener noreferrer">
                 About
               </a>
             </li>
             <li>
-              <a href="#what-i-do" onClick={handleClose}>
+              <a href="#what-i-do" onClick={handleClose} rel="noopener noreferrer">
                 What I Do
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={handleClose}>
+              <a href="#projects" onClick={handleClose} rel="noopener noreferrer">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contacts" onClick={handleClose}>
+              <a href="#contacts" onClick={handleClose} rel="noopener noreferrer">
                 Contacts
               </a>
             </li>
