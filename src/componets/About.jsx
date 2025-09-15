@@ -10,7 +10,7 @@ export default function About() {
         <div className="wrapper about-content">
           <FadeInWrapper className="heading">
             <h2 className="line-1">I'm Georgi Fudulov</h2>
-            <h2 className="line-2">Python, ReactJS Developer & Investor</h2>
+            <h2 className="line-2">Web Developer & Investor</h2>
           </FadeInWrapper>
           <FadeInWrapper className="description" delay={0.3}>
             <p>
