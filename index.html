@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/logo.ico" />
+    <link rel="icon" href="/logo.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Georgi Fudulov | Web Developer</title>
     <meta
       name="description"
-      content="Personal website of Georgi Fudulov, website builder, design expert. Focus on developing high performance websites."
+      content="Discover how Georgi Fudulov builds fast, modern and high performance websites that stand out."
     />
     <meta name="author" content="Georgi Fudulov" />
-    <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Georgi Fudulov | Developer Portfolio" />
     <meta
       property="og:description"
-      content="Building high performance websites"
+      content="Discover how Georgi Fudulov builds fast, modern and high performance websites that stand out."
     />
     <meta
       property="og:image"
@@ -23,38 +22,53 @@
     <meta property="og:url" content="https://www.georgifudulov.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Georgi Fudulov" />
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Georgi Fudulov Portfolio" />
     <meta
       name="twitter:description"
-      content="Web developer building high performance websites."
+      content="Discover how Georgi Fudulov builds fast, modern and high performance websites that stand out."
     />
     <meta
       name="twitter:image"
       content="https://www.georgifudulov.com/preview.jpeg"
     />
-    <!-- Canonical -->
     <link rel="canonical" href="https://www.georgifudulov.com/" />
-    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <!--  -->
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#1976d2" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Georgi Fudulov",
-        "url": "https://www.georgifudulov.com/",
-        "jobTitle": "Web Developer",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Georgi Fudulov"
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://www.georgifudulov.com/#person",
+            "name": "Georgi Fudulov",
+            "url": "https://www.georgifudulov.com",
+            "image": "https://www.georgifudulov.com/preview.jpeg",
+            "jobTitle": "Web Developer",
+            "sameAs": [
+              "https://x.com/georgifudulov/",
+              "https://www.linkedin.com/in/georgifudulov/",
+              "https://github.com/georgifudulov",
+              "https://www.facebook.com/georgifudulov/",
+              "https://www.instagram.com/georgifudulov/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.georgifudulov.com/#website",
+            "url": "https://www.georgifudulov.com",
+            "name": "Georgi Fudulov | Web Developer",
+            "description": "Discover how Georgi Fudulov builds fast, modern and high performance websites that stand out.",
+            "publisher": {
+              "@id": "https://www.georgifudulov.com/#person"
+            }
+          }
+        ]
       }
     </script>
   </head>
