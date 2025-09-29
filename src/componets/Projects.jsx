@@ -5,14 +5,23 @@ import FadeInWrapper from "./FadeInWrapper";
 
 import portfolioTracker from "../assets/portfolio_tracker.png";
 import wizardwash from "../assets/wizardwash.png";
+import buildcorporationbg from "../assets/buildcorporationbg.png";
 
 const projectData = [
+  {
+    title: "Build Corporation",
+    description:
+      "Created a custom website for a construction company, including tailored web design, unique logo, and SEO optimization. Delivered a full brand creation package to establish a strong online presence and highlight core services.",
+    img: buildcorporationbg,
+    url: "https://www.buildcorporationbg.com",
+    alt: "Build Corporation image",
+  },
   {
     title: "WizardWash",
     description:
       "Developed a professional web platform for a nationally operating cleaning company with 5 years of experience, using ReactJS and Vanilla CSS. Showcasing services, real client results, and SEO-optimized content.",
     img: wizardwash,
-    url: "https://wizardwash.bg",
+    url: "https://www.wizardwash.bg",
     alt: "WizardWash image",
   },
   ,
@@ -43,7 +52,11 @@ export default function Projects() {
             />
           </FadeInWrapper>
         ))}
-        <a href="https://github.com/georgifudulov" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/georgifudulov"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button>View All My Projects</button>
         </a>
       </div>
