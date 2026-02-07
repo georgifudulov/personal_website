@@ -6,8 +6,17 @@ import FadeInWrapper from "./FadeInWrapper";
 import portfolioTracker from "../assets/portfolio_tracker.png";
 import wizardwash from "../assets/wizardwash.png";
 import buildcorporationbg from "../assets/buildcorporationbg.png";
+import abcdesign from "../assets/abc_design.png";
 
 const projectData = [
+  {
+    title: "ABC Design",
+    description:
+      "Completely custom website tailored to the customer's vison and development. Includes integration of AI assistant, SEO optimization and Detailed projects showcase. Developed on NextJS for strong SEO and online presence.",
+    img: abcdesign,
+    url: "https://www.abcdesign.bg",
+    alt: "ABC Design image",
+  },
   {
     title: "Build Corporation",
     description:
