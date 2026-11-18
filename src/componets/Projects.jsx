@@ -22,7 +22,7 @@ const projectData = [
     description:
       "Created a custom website for a construction company, including tailored web design, unique logo, and SEO optimization. Delivered a full brand creation package to establish a strong online presence and highlight core services.",
     img: buildcorporationbg,
-    url: "https://www.buildcorporationbg.com",
+    url: "https://buildcorporationbg.vercel.app",
     alt: "Build Corporation image",
   },
   {
